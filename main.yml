@@ -49,7 +49,6 @@ jobs:
       - name: Verify version.txt file
         run: cat Assets/Resources/version.txt
 
-      ####### PUT YOUR version.txt WITH 'NAME_NAME_VERSION=0.0.1' INSIDE ########
       - name: Get version
         id: get_version
         run: |
